@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1173946315496064}
+  m_IsPrefabParent: 1
+--- !u!1 &1173946315496064
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4098108502277366}
+  - component: {fileID: 114824037963808210}
+  m_Layer: 0
+  m_Name: SoundController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4098108502277366
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1173946315496064}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.2426648, y: -1.9021759, z: -1.0859884}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114824037963808210
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1173946315496064}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69738479f8a32fb4887358daaca67fea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  loadOnce: 0
+  sfxClips:
+  - {fileID: 8300000, guid: 8dd266ef9e5cbbd4db240e75066991cb, type: 3}
+  - {fileID: 8300000, guid: d612b607e94a64047ab96beed72a0732, type: 3}
+  - {fileID: 8300000, guid: 2bf9a5ed2456cba44ba969fb804cecf3, type: 3}
+  - {fileID: 8300000, guid: fae9eb6cdf2807743ba6954544445b77, type: 3}
+  - {fileID: 8300000, guid: a374152bcca2c76458b469b4853f732c, type: 3}
+  - {fileID: 8300000, guid: 7ec74b10254d1f1409ba58e58c9e1af6, type: 3}
+  - {fileID: 8300000, guid: 63230366d26d5d64db0a1c3bf4719ca1, type: 3}
+  musicClips: []
+  sfxClipsNames:
+  - Button
+  - Chpok
+  - Destroy
+  - Complete
+  - Slow
+  - Splash
+  - Gamover
+  musicClipsNames: []

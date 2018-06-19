@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a33871380693ff740badde2de100f7a2, type: 3}
+  m_Name: GameSettingsInstaller
+  m_EditorClassIdentifier: 
+  SystemModules:
+    SoundManagerPrefab: {fileID: 1568325518220286, guid: 18a24013317c6f84680c11e822cdeccc,
+      type: 2}
+  GamePlayItems:
+    GamePalyPresenter: {fileID: 1085213321913162, guid: 6d0bdae078aca6547b6749c53f764357,
+      type: 2}
+    UserTankPrefab: {fileID: 1274696281983260, guid: ac0f2461812172f4b9053c07cf0b4790,
+      type: 2}
+    Enemy1Green: {fileID: 1815576227719164, guid: b057cda362d86af4a970fea376681e4f,
+      type: 2}
+    Enemy2Ello: {fileID: 1815576227719164, guid: d5f0820342531d447bc6391da58f0418,
+      type: 2}
+    Enemy3Blue: {fileID: 1815576227719164, guid: 17938125d874153468c65049702f1c3d,
+      type: 2}
+    Enemy4Purple: {fileID: 1815576227719164, guid: 5f72c095fc0798b4091b5a706e61ce4b,
+      type: 2}
+    Enemy5Red: {fileID: 1815576227719164, guid: 9a92f7a34d955c447ace5ac287811d0b,
+      type: 2}
+    BulletPrefab: {fileID: 1986766910800296, guid: 7b144769d92751144888b2704c3ad7f1,
+      type: 2}
+    BertaGun: {fileID: 1826427685927298, guid: 3d2782de693448540a28185b29ac1077, type: 2}
+    SparkaGun: {fileID: 1076687776037038, guid: 963cfed5654e1664198d46dc99bb42b4,
+      type: 2}
+    IsusGun: {fileID: 1131852617835290, guid: 8c6db2122cc386546b508a098a081881, type: 2}
+    DamageDisplay: {fileID: 1700452596887488, guid: c60613a84a90414419d045676d86679e,
+      type: 2}
+    BonusDisplay: {fileID: 1664099041263000, guid: 3d68bdfe59e187d44b06d6491a7bd9ef,
+      type: 2}
+  ParticlesItems:
+    Explosion: {fileID: 1673476093668826, guid: c550b9f76cadc564387fe07e64bc9cc4,
+      type: 2}
+    Splash: {fileID: 1206463556443022, guid: 49088bca8ccfa954b8e97a8587c48852, type: 2}
+    Track: {fileID: 1522994911258664, guid: 65bf248fb2b3a164a9c15d2aa39c6555, type: 2}
+    Shield: {fileID: 175174, guid: 2e4f0ab4bb7446641a11ed3009f56f76, type: 2}
